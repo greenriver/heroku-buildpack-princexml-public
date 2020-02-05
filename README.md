@@ -8,4 +8,4 @@ variable named PRINCE_LICENSE. Note that the buildpack itself generates the
 license file from the ENV variable, so you will need to re-deploy your app to
 generate it.
 
-`heroku buildpacks:set https://github.com/greenriver/heroku-buildpack-princexml-public.git -a myapp`
+`heroku buildpacks:add https://github.com/greenriver/heroku-buildpack-princexml-public.git -a myapp`
